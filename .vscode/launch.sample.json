@@ -1,0 +1,22 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug App",
+      "request": "launch",
+      "mainClass": "trivia.App",
+      // Change this line with the path of JavaFX SDK 14
+      "vmArgs": "--module-path \\path\\to\\javafx-sdk-14\\lib --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Debug Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    }
+  ]
+}
