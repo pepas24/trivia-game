@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane
+    fx:id="button"
+    fx:controller="trivia.SplashScreen.SplashScreen"
+    xmlns:fx="http://javafx.com/fxml"
+    styleClass="background"
+>
+
+    <center>
+        <VBox alignment="center">
+            <ImageView preserveRatio="true">
+                <image>
+                    <Image url="@../resources/images/logo.png"></Image>
+                </image>
+            </ImageView>
+            <Text styleClass="title" text="¡Reta tus conocimientos!"></Text>
+            <Button
+                fx:id="startButton"
+                styleClass="button"
+                onAction="#handleNextScreen"
+                text="Iniciar juego"
+                AnchorPane.bottomAnchor="100.0"
+                AnchorPane.leftAnchor="280.0"
+            />
+        </VBox>
+    </center>
+
+    <stylesheets>
+        <URL value="@splashscreen.css" />
+    </stylesheets>
+
+</BorderPane>

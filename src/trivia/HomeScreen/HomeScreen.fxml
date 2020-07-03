@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane
+    fx:controller="trivia.HomeScreen.HomeScreen"
+    xmlns:fx="http://javafx.com/fxml"
+>
+    <center>
+        <VBox alignment="center">
+            <ImageView>
+                <image>
+                    <Image url="@../resources/images/logo.png"></Image>
+                </image>
+            </ImageView>
+            <Text text="Selecciona una categoría"></Text>
+            <HBox
+                fx:id="categoryButtons"
+                alignment="center"
+                spacing="16.0"
+            >
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

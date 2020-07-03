@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+        fx:controller="trivia.QuestionScreen.QuestionScreen"
+        fx:id="mainPane"
+>
+    <Text fx:id="points" text="0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0"></Text>
+    <Button text="Siguiente" onAction="#nextQuestion" AnchorPane.bottomAnchor="130.0"></Button>
+</AnchorPane>

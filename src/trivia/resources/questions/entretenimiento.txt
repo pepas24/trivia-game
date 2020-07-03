@@ -1,0 +1,21 @@
+Entretenimiento
+q: ¿El termino paradigma significa?
+Respuesta Los Computadores son útiles para la humanidad
+Respuesta El modo en el que vemos el mundo
+Respuesta Reglas impuestas por la sociedad
+* 2
+q: ¿Las acciones que un objeto puede realizar se representan en código a través de la definición de un método es?
+Respuesta Clase
+Respuesta Metodo
+Respuesta Contructor
+* 2
+q: Aquellos que soportan diferentes tipos de estilos o paradigmas de programación, ¿son lenguajes?
+Respuesta Logícos
+Respuesta Orientados a Objeto
+Respuesta Multiparadigmas
+* 3
+q: ¿Enunciado de pregunta 4?
+Respuesta 1
+Respuesta 2
+Respuesta 3
+* 2
