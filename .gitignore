@@ -1,3 +1,5 @@
-.vscode/launch.json
+.vscode
+!.vscode/launch.sample.json
+
 lib/*.jar
 javadoc
